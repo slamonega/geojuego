@@ -1,0 +1,470 @@
+{
+  "startingPoint": {
+    "name": "Punto de Partida",
+    "description": "\u00a1Bienvenidos al Vivac Go! Este es el punto de partida de tu aventura. Desde aqu\u00ed, te embarcar\u00e1s en un recorrido para descubrir los secretos de la naturaleza y la historia de este lugar. \u00a1Mucha suerte!",
+    "lat": -38.7196,
+    "lon": -62.2724
+  },
+  "recorridos": [
+    {
+      "id": 1,
+      "name": "Recorrido 1",
+      "postas": [
+        {
+          "id": "1.1",
+          "name": "Posta 1.1",
+          "description": "Descripci\u00f3n de la posta 1.1",
+          "lat": -38.75235098939314,
+          "lon": -62.17540032247623,
+          "radius": 50
+        },
+        {
+          "id": "1.2",
+          "name": "Posta 1.2",
+          "description": "Descripci\u00f3n de la posta 1.2",
+          "lat": -38.73376719853626,
+          "lon": -62.3526631151135,
+          "radius": 50
+        },
+        {
+          "id": "1.3",
+          "name": "Posta 1.3",
+          "description": "Descripci\u00f3n de la posta 1.3",
+          "lat": -38.70152165067447,
+          "lon": -62.356011597675185,
+          "radius": 50
+        },
+        {
+          "id": "1.4",
+          "name": "Posta 1.4",
+          "description": "Descripci\u00f3n de la posta 1.4",
+          "lat": -38.79062046467281,
+          "lon": -62.32935382545268,
+          "radius": 50
+        },
+        {
+          "id": "1.5",
+          "name": "Posta 1.5",
+          "description": "Descripci\u00f3n de la posta 1.5",
+          "lat": -38.716933513301335,
+          "lon": -62.23529935350332,
+          "radius": 50
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Recorrido 2",
+      "postas": [
+        {
+          "id": "2.1",
+          "name": "Posta 2.1",
+          "description": "Descripci\u00f3n de la posta 2.1",
+          "lat": -38.72412292744317,
+          "lon": -62.291081109261754,
+          "radius": 50
+        },
+        {
+          "id": "2.2",
+          "name": "Posta 2.2",
+          "description": "Descripci\u00f3n de la posta 2.2",
+          "lat": -38.65327598861697,
+          "lon": -62.33940807897983,
+          "radius": 50
+        },
+        {
+          "id": "2.3",
+          "name": "Posta 2.3",
+          "description": "Descripci\u00f3n de la posta 2.3",
+          "lat": -38.643700583805085,
+          "lon": -62.23583885560919,
+          "radius": 50
+        },
+        {
+          "id": "2.4",
+          "name": "Posta 2.4",
+          "description": "Descripci\u00f3n de la posta 2.4",
+          "lat": -38.67673183082339,
+          "lon": -62.27128212491444,
+          "radius": 50
+        },
+        {
+          "id": "2.5",
+          "name": "Posta 2.5",
+          "description": "Descripci\u00f3n de la posta 2.5",
+          "lat": -38.77015762705377,
+          "lon": -62.25772647447747,
+          "radius": 50
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Recorrido 3",
+      "postas": [
+        {
+          "id": "3.1",
+          "name": "Posta 3.1",
+          "description": "Descripci\u00f3n de la posta 3.1",
+          "lat": -38.78222435924485,
+          "lon": -62.18309209883184,
+          "radius": 50
+        },
+        {
+          "id": "3.2",
+          "name": "Posta 3.2",
+          "description": "Descripci\u00f3n de la posta 3.2",
+          "lat": -38.70966636178794,
+          "lon": -62.330761859505905,
+          "radius": 50
+        },
+        {
+          "id": "3.3",
+          "name": "Posta 3.3",
+          "description": "Descripci\u00f3n de la posta 3.3",
+          "lat": -38.74927349359726,
+          "lon": -62.19254467361851,
+          "radius": 50
+        },
+        {
+          "id": "3.4",
+          "name": "Posta 3.4",
+          "description": "Descripci\u00f3n de la posta 3.4",
+          "lat": -38.80746446122732,
+          "lon": -62.26499795857034,
+          "radius": 50
+        },
+        {
+          "id": "3.5",
+          "name": "Posta 3.5",
+          "description": "Descripci\u00f3n de la posta 3.5",
+          "lat": -38.71522259003957,
+          "lon": -62.26742526930405,
+          "radius": 50
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Recorrido 4",
+      "postas": [
+        {
+          "id": "4.1",
+          "name": "Posta 4.1",
+          "description": "Descripci\u00f3n de la posta 4.1",
+          "lat": -38.65550608004623,
+          "lon": -62.28292164144046,
+          "radius": 50
+        },
+        {
+          "id": "4.2",
+          "name": "Posta 4.2",
+          "description": "Descripci\u00f3n de la posta 4.2",
+          "lat": -38.6408786919047,
+          "lon": -62.18102438417309,
+          "radius": 50
+        },
+        {
+          "id": "4.3",
+          "name": "Posta 4.3",
+          "description": "Descripci\u00f3n de la posta 4.3",
+          "lat": -38.78053411984823,
+          "lon": -62.36720470322422,
+          "radius": 50
+        },
+        {
+          "id": "4.4",
+          "name": "Posta 4.4",
+          "description": "Descripci\u00f3n de la posta 4.4",
+          "lat": -38.65803459183772,
+          "lon": -62.33389069563596,
+          "radius": 50
+        },
+        {
+          "id": "4.5",
+          "name": "Posta 4.5",
+          "description": "Descripci\u00f3n de la posta 4.5",
+          "lat": -38.80035555908332,
+          "lon": -62.2503541045912,
+          "radius": 50
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Recorrido 5",
+      "postas": [
+        {
+          "id": "5.1",
+          "name": "Posta 5.1",
+          "description": "Descripci\u00f3n de la posta 5.1",
+          "lat": -38.723532860283676,
+          "lon": -62.276564352077905,
+          "radius": 50
+        },
+        {
+          "id": "5.2",
+          "name": "Posta 5.2",
+          "description": "Descripci\u00f3n de la posta 5.2",
+          "lat": -38.65067710927882,
+          "lon": -62.2250097626015,
+          "radius": 50
+        },
+        {
+          "id": "5.3",
+          "name": "Posta 5.3",
+          "description": "Descripci\u00f3n de la posta 5.3",
+          "lat": -38.67560496934764,
+          "lon": -62.319552333079535,
+          "radius": 50
+        },
+        {
+          "id": "5.4",
+          "name": "Posta 5.4",
+          "description": "Descripci\u00f3n de la posta 5.4",
+          "lat": -38.62478132713438,
+          "lon": -62.318977815784045,
+          "radius": 50
+        },
+        {
+          "id": "5.5",
+          "name": "Posta 5.5",
+          "description": "Descripci\u00f3n de la posta 5.5",
+          "lat": -38.81459293894573,
+          "lon": -62.20163258993998,
+          "radius": 50
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Recorrido 6",
+      "postas": [
+        {
+          "id": "6.1",
+          "name": "Posta 6.1",
+          "description": "Descripci\u00f3n de la posta 6.1",
+          "lat": -38.63688893981474,
+          "lon": -62.27662975892714,
+          "radius": 50
+        },
+        {
+          "id": "6.2",
+          "name": "Posta 6.2",
+          "description": "Descripci\u00f3n de la posta 6.2",
+          "lat": -38.67248642887633,
+          "lon": -62.25953556679252,
+          "radius": 50
+        },
+        {
+          "id": "6.3",
+          "name": "Posta 6.3",
+          "description": "Descripci\u00f3n de la posta 6.3",
+          "lat": -38.68922949909973,
+          "lon": -62.29581425280744,
+          "radius": 50
+        },
+        {
+          "id": "6.4",
+          "name": "Posta 6.4",
+          "description": "Descripci\u00f3n de la posta 6.4",
+          "lat": -38.809746523402254,
+          "lon": -62.22275714584251,
+          "radius": 50
+        },
+        {
+          "id": "6.5",
+          "name": "Posta 6.5",
+          "description": "Descripci\u00f3n de la posta 6.5",
+          "lat": -38.66938824862571,
+          "lon": -62.22709306587122,
+          "radius": 50
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Recorrido 7",
+      "postas": [
+        {
+          "id": "7.1",
+          "name": "Posta 7.1",
+          "description": "Descripci\u00f3n de la posta 7.1",
+          "lat": -38.63254389078931,
+          "lon": -62.28399175457302,
+          "radius": 50
+        },
+        {
+          "id": "7.2",
+          "name": "Posta 7.2",
+          "description": "Descripci\u00f3n de la posta 7.2",
+          "lat": -38.66618803388127,
+          "lon": -62.3326484328633,
+          "radius": 50
+        },
+        {
+          "id": "7.3",
+          "name": "Posta 7.3",
+          "description": "Descripci\u00f3n de la posta 7.3",
+          "lat": -38.777082955409746,
+          "lon": -62.20700000505669,
+          "radius": 50
+        },
+        {
+          "id": "7.4",
+          "name": "Posta 7.4",
+          "description": "Descripci\u00f3n de la posta 7.4",
+          "lat": -38.648507283839706,
+          "lon": -62.205304626633676,
+          "radius": 50
+        },
+        {
+          "id": "7.5",
+          "name": "Posta 7.5",
+          "description": "Descripci\u00f3n de la posta 7.5",
+          "lat": -38.68178669430478,
+          "lon": -62.3022374153982,
+          "radius": 50
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Recorrido 8",
+      "postas": [
+        {
+          "id": "8.1",
+          "name": "Posta 8.1",
+          "description": "Descripci\u00f3n de la posta 8.1",
+          "lat": -38.75121773698724,
+          "lon": -62.29426402809129,
+          "radius": 50
+        },
+        {
+          "id": "8.2",
+          "name": "Posta 8.2",
+          "description": "Descripci\u00f3n de la posta 8.2",
+          "lat": -38.69718363484559,
+          "lon": -62.369103880406904,
+          "radius": 50
+        },
+        {
+          "id": "8.3",
+          "name": "Posta 8.3",
+          "description": "Descripci\u00f3n de la posta 8.3",
+          "lat": -38.6579729979394,
+          "lon": -62.34665654088399,
+          "radius": 50
+        },
+        {
+          "id": "8.4",
+          "name": "Posta 8.4",
+          "description": "Descripci\u00f3n de la posta 8.4",
+          "lat": -38.75816632903983,
+          "lon": -62.25714037291537,
+          "radius": 50
+        },
+        {
+          "id": "8.5",
+          "name": "Posta 8.5",
+          "description": "Descripci\u00f3n de la posta 8.5",
+          "lat": -38.66821472692382,
+          "lon": -62.17418517859797,
+          "radius": 50
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Recorrido 9",
+      "postas": [
+        {
+          "id": "9.1",
+          "name": "Posta 9.1",
+          "description": "Descripci\u00f3n de la posta 9.1",
+          "lat": -38.66081630699406,
+          "lon": -62.18132243030907,
+          "radius": 50
+        },
+        {
+          "id": "9.2",
+          "name": "Posta 9.2",
+          "description": "Descripci\u00f3n de la posta 9.2",
+          "lat": -38.64216258743383,
+          "lon": -62.22391255063968,
+          "radius": 50
+        },
+        {
+          "id": "9.3",
+          "name": "Posta 9.3",
+          "description": "Descripci\u00f3n de la posta 9.3",
+          "lat": -38.763420513651866,
+          "lon": -62.19543470727897,
+          "radius": 50
+        },
+        {
+          "id": "9.4",
+          "name": "Posta 9.4",
+          "description": "Descripci\u00f3n de la posta 9.4",
+          "lat": -38.66168063353046,
+          "lon": -62.21585714920716,
+          "radius": 50
+        },
+        {
+          "id": "9.5",
+          "name": "Posta 9.5",
+          "description": "Descripci\u00f3n de la posta 9.5",
+          "lat": -38.80514670801368,
+          "lon": -62.35416022090507,
+          "radius": 50
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Recorrido 10",
+      "postas": [
+        {
+          "id": "10.1",
+          "name": "Posta 10.1",
+          "description": "Descripci\u00f3n de la posta 10.1",
+          "lat": -38.63850615394516,
+          "lon": -62.348993350202065,
+          "radius": 50
+        },
+        {
+          "id": "10.2",
+          "name": "Posta 10.2",
+          "description": "Descripci\u00f3n de la posta 10.2",
+          "lat": -38.7160904582014,
+          "lon": -62.17330783093281,
+          "radius": 50
+        },
+        {
+          "id": "10.3",
+          "name": "Posta 10.3",
+          "description": "Descripci\u00f3n de la posta 10.3",
+          "lat": -38.65090138464922,
+          "lon": -62.18744402306199,
+          "radius": 50
+        },
+        {
+          "id": "10.4",
+          "name": "Posta 10.4",
+          "description": "Descripci\u00f3n de la posta 10.4",
+          "lat": -38.77110484046131,
+          "lon": -62.357418885894475,
+          "radius": 50
+        },
+        {
+          "id": "10.5",
+          "name": "Posta 10.5",
+          "description": "Descripci\u00f3n de la posta 10.5",
+          "lat": -38.77546861065057,
+          "lon": -62.22262328946452,
+          "radius": 50
+        }
+      ]
+    }
+  ]
+}

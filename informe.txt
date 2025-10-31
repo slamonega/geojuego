@@ -1,0 +1,19 @@
+Posibilidad de JSONs individuales por recorrido y funcionamiento offline:
+
+Es totalmente factible y recomendable que cada recorrido tenga su propio archivo JSON (por ejemplo, 'recorrido1.json', 'recorrido2.json', etc.) en lugar de tener todos los recorridos dentro de un único 'postas.json'.
+
+Ventajas de JSONs individuales:
+- Organización: Facilita la gestión y edición de cada recorrido de forma independiente.
+- Escalabilidad: Permite añadir o modificar recorridos sin afectar a los demás.
+- Rendimiento: En algunos casos, se podría cargar solo el JSON del recorrido asignado, reduciendo la cantidad de datos iniciales.
+
+Para implementar esto, se necesitarían los siguientes cambios:
+
+1.  **En `app.js`**:
+    *   Modificar la lógica de carga para que, una vez determinado el `recorridoId`, se construya la ruta al archivo JSON específico (ej. `fetch("recorrido${recorridoId}.json")`).
+    *   Asegurarse de que la estructura interna de cada JSON individual sea compatible con la forma en que `app.js` procesa las postas.
+
+2.  **En `sw.js` (Service Worker)**:
+    *   Para garantizar el funcionamiento offline, el Service Worker debe ser actualizado para cachear todos los archivos JSON de los recorridos. Esto se puede hacer listando explícitamente cada archivo JSON en la lista de recursos a cachear (`CACHE_URLS`) o implementando una estrategia de caché que intercepte las solicitudes a archivos `.json` y los guarde dinámicamente.
+
+Al realizar estos cambios, se lograría una estructura más modular y un soporte offline robusto para cada recorrido.

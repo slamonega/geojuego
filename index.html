@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vivac - Ruta Atlantica</title>
+  <link rel="manifest" href="manifest.json">
+  
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    if ('serviceWorker' in navigator) {
+      try { navigator.serviceWorker.register('sw.js'); } catch(e){ console.warn('SW register failed', e); }
+    }
+  </script>
+</head>
+<body>
+
+  <header class="header">
+    <img src="canoa.jpg" alt="Canoa" style="height: 60px; margin-right: 10px;">
+    <div>
+      <h1>Vivac - Ruta Atlantica - Moot'26</h1>
+      <p class="subtitle">Nunca te quedes a la deriva. El largo camino conduce a la alegría.</p>
+    </div>
+  </header>
+  <div class="card">
+      <p>Hemos distribuido de forma aleatoria a los participantes en 10 recorridos, te ha tocado el <strong id="recorrido-name"></strong></p>
+      <p>Los celulares cuentan con multiples sensores, como el GPS, que podemos utilizarlo como recurso educativo, a modo de Pokemon Go, en un juego de postas geolocalizadas.</p>
+        <p>Para validar la geolocalizacion de la Posta y visualizar la ficha de actividad debes acercarte a menos de 25 metros.</p>
+        <p>Orientense segun vaya disminuyendo la distancia. Organicense para determinar el rumbo.</p>
+         <p>Bajá la aplicación Stellarium.</p>
+         <p>Escuchá el podcastIA de </p>
+    </div>
+       <div class="controls card">
+      <div id="status">Cargando postas...</div>
+      <div id="posinfo" class="muted"></div>
+      <div class="buttons">
+        <button id="force">Actualizar distancia</button>
+      </div>
+    </div>
+<div class="card" id="info-card"></div>
+    <div class="card" id="postaslist"><h3>Postas</h3><ul id="lista"></ul></div>
+    
+    
+
+
+  
+  <script src="app.js"></script>
+</body>
+</html>

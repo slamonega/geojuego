@@ -1,0 +1,56 @@
+{
+  "startingPoint": {
+    "name": "Punto de Partida",
+    "description": "¡Bienvenidos al Vivac Go! Este es el punto de partida de tu aventura. Desde aquí, comenzarás a descifrar la huella antigua que une espíritu, lealtad y sendero. Respira profundo: la tierra reconoce a los peregrinos dignos.",
+    "lat": -38.7196,
+    "lon": -62.2724
+  },
+  "recorridos": [
+        {
+      "id": 4,
+      "name": "Travesía del Río Susurrante",
+      "postas": [
+        {
+          "id": "4.1",
+          "name": "Eucalipto - Encrucijada del Murmullo Claro",
+          "description": "Las corrientes subterráneas brotan aquí en susurros aquosos. Quien incline el oído escuchará <strong>promesas que se desvanecen al recordar.</strong><br><br><em>Observa con atención el suelo a tu alrededor. ¿Puedes sentir la humedad? Este lugar es un punto de encuentro de energías antiguas.</em>",
+          "lat": -31.129361,
+          "lon": -64.736515,
+          "radius": 5
+        },
+        {
+          "id": "4.2",
+          "name": "Albergue - Orilla de la Sombra Helada",
+          "description": "El aire es más frío que el entorno; la humedad deja cristales breves. Se dice que <em>antiguos exploradores congelaron aquí la culpa de sus acciones.</em><br><br><strong>Siente el escalofrío.</strong> <em>Este lugar te invita a reflexionar sobre las cargas del pasado y la posibilidad de dejarlas ir.</em>",
+          "lat": -31.12995,
+          "lon": -64.736833,
+          "radius": 5
+        },
+        {
+          "id": "4.3",
+          "name": "Porton - Remanso del Ojo Inmóvil",
+          "description": "Un remolino estático desafía la física. Mirarlo demasiado tiempo causa <strong>vértigo de destino:</strong> <em>el viajero distingue senderos que nunca tomó.</em><br><br>Este lugar te invita a contemplar las decisiones no tomadas y los caminos alternativos de tu vida. ¿Qué sendero elegirías ahora?",
+          "lat": -31.129202,
+          "lon": -64.73726,
+          "radius": 5
+        },
+        {
+          "id": "4.4",
+          "name": "Patos - Puente de las Raíces Trenzadas",
+          "description": "Raíces fusionadas forman un arco natural que vibra bajo los pasos. Su resonancia evalúa la fibra moral de quienes la cruzan.",
+          "lat": -31.130279,
+          "lon": -64.738365,
+          "radius": 5
+        },
+        {
+          "id": "4.5",
+          "name": "Juntura - Islote del Juramento de Agua",
+          "description": "Un claro acuático donde la luz se curva levemente. Aquí se jura servicio y humildad: el agua reconoce la mentira al instante.",
+          "lat": -31.128056,
+          "lon": -64.737037,
+          "radius": 5
+        }
+      ]
+    }
+  ]
+}
