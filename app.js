@@ -56,7 +56,7 @@ function renderList(){
     li.innerHTML = `<div><strong>${p.name}</strong></div><div class="status ${statusClass}"></div>`;
     li.onclick = () => {
       infoCardEl.innerHTML = `<h2>${p.name}</h2><p>${p.description}</p>`;
-      infoCardEl.style.display = 'block';
+      // infoCardEl.style.display = 'block'; // Bloqueado para evitar que se muestre al hacer click
     };
     listaEl.appendChild(li);
   });
