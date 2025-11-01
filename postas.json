@@ -1,53 +1,93 @@
 {
   "startingPoint": {
     "name": "Punto de Partida",
-    "description": "¡Bienvenidos al Vivac Go! Este es el punto de partida de tu aventura. Desde aquí, comenzarás a descifrar la huella antigua que une espíritu, lealtad y sendero. Respira profundo: la tierra reconoce a los peregrinos dignos.",
+    "description": "¡Bienvenidos al Vivac Go! El Río Susurrante guarda secretos que solo las patrullas valientes y observadoras pueden descubrir. Ajustá tu mochila, prepará tu brújula y tu espíritu scout: cada paso será una lección de aventura, cooperación y aprendizaje.",
     "lat": -38.7196,
     "lon": -62.2724
   },
   "recorridos": [
-        {
+    {
       "id": 4,
-      "name": "Travesía del Río Susurrante",
+      "name": "Expedición del Río Susurrante",
       "postas": [
         {
           "id": "4.1",
-          "name": "Eucalipto - Encrucijada del Murmullo Claro",
-          "description": "Las corrientes subterráneas brotan aquí en susurros aquosos. Quien incline el oído escuchará <strong>promesas que se desvanecen al recordar.</strong><br><br><em>Observa con atención el suelo a tu alrededor. ¿Puedes sentir la humedad? Este lugar es un punto de encuentro de energías antiguas.</em>",
+          "name": "Posta 1",
+          "description": "Comenzás la expedición ascendiendo a un alto desde donde el paisaje se despliega como un mapa. Como un águila, debés observar rutas posibles y peligros ocultos.<br><br><strong>Desafío:</strong> Señalá tres puntos de referencia naturales y explicá su utilidad.<br><strong>Mini-prueba:</strong> Identificá riesgos potenciales en el terreno.<br><strong>Consigna educativa:</strong> La observación y análisis de paisaje mejora la orientación y seguridad.",
           "lat": -38.697475,
           "lon": -62.275329,
           "radius": 10
         },
         {
           "id": "4.2",
-          "name": "Albergue - Orilla de la Sombra Helada",
-          "description": "El aire es más frío que el entorno; la humedad deja cristales breves. Se dice que <em>antiguos exploradores congelaron aquí la culpa de sus acciones.</em><br><br><strong>Siente el escalofrío.</strong> <em>Este lugar te invita a reflexionar sobre las cargas del pasado y la posibilidad de dejarlas ir.</em>",
+          "name": "Posta 2",
+          "description": "Dentro de la cueva, cada sonido regresa transformado. Aprendés que una comunicación clara y precisa es vital para coordinar a la patrulla.<br><br><strong>Desafío:</strong> Transmití un mensaje scout en clave a tu patrulla usando golpes o susurros.<br><strong>Mini-prueba:</strong> Comprobá que todos lo comprendieron correctamente.<br><strong>Consigna educativa:</strong> La comunicación efectiva reduce errores y fortalece la cooperación.",
           "lat": -31.12995,
           "lon": -64.736833,
           "radius": 5
         },
         {
           "id": "4.3",
-          "name": "Porton - Remanso del Ojo Inmóvil",
-          "description": "Un remolino estático desafía la física. Mirarlo demasiado tiempo causa <strong>vértigo de destino:</strong> <em>el viajero distingue senderos que nunca tomó.</em><br><br>Este lugar te invita a contemplar las decisiones no tomadas y los caminos alternativos de tu vida. ¿Qué sendero elegirías ahora?",
+          "name": "Posta 3",
+          "description": "Un árbol centenario custodia el sendero. Aprendés que la paciencia y la atención al detalle permiten descubrir señales que otros podrían pasar por alto.<br><br><strong>Desafío:</strong> Observar durante 1 minuto los detalles del árbol y describilos.<br><strong>Mini-prueba:</strong> Identificá tres formas de vida que dependen de este árbol.<br><strong>Consigna educativa:</strong> La atención y respeto por la naturaleza fortalecen la conciencia ambiental.",
           "lat": -31.129202,
           "lon": -64.73726,
           "radius": 5
         },
         {
           "id": "4.4",
-          "name": "Patos - Puente de las Raíces Trenzadas",
-          "description": "Raíces fusionadas forman un arco natural que vibra bajo los pasos. Su resonancia evalúa la fibra moral de quienes la cruzan.",
+          "name": "Posta 4",
+          "description": "Cruzá un puente de troncos que simboliza la unión y confianza. Cada paso firme asegura al siguiente.<br><br><strong>Desafío:</strong> Cruzar sosteniéndose de la cuerda de seguridad.<br><strong>Mini-prueba:</strong> Practicar un nudo básico para reforzar la cuerda.<br><strong>Consigna educativa:</strong> La cooperación y seguridad compartida son esenciales en travesías.",
           "lat": -31.130279,
           "lon": -64.738365,
           "radius": 5
         },
         {
           "id": "4.5",
-          "name": "Juntura - Islote del Juramento de Agua",
-          "description": "Un claro acuático donde la luz se curva levemente. Aquí se jura servicio y humildad: el agua reconoce la mentira al instante.",
+          "name": "Posta 5",
+          "description": "Un espejo de agua refleja la luz y vuestro compromiso. Cada Caminante comparte un compromiso personal, reforzando la Promesa Scout.<br><br><strong>Desafío:</strong> Compartir un compromiso personal para la semana.<br><strong>Mini-prueba:</strong> Relacionar una acción de campamento con la Promesa.<br><strong>Consigna educativa:</strong> Reflexionar sobre la Promesa fortalece la ética y la responsabilidad.",
           "lat": -31.128056,
           "lon": -64.737037,
+          "radius": 5
+        },
+        {
+          "id": "4.6",
+          "name": "Posta 6",
+          "description": "La corriente y las piedras muestran la importancia de elegir caminos seguros. La patrulla debe analizar riesgos y tomar decisiones estratégicas.<br><br><strong>Desafío:</strong> Señalar el mejor lugar para cruzar el río.<br><strong>Mini-prueba:</strong> Explicar la elección al grupo.<br><strong>Consigna educativa:</strong> La planificación consciente reduce accidentes y fortalece la autonomía.",
+          "lat": -31.1275,
+          "lon": -64.7375,
+          "radius": 5
+        },
+        {
+          "id": "4.7",
+          "name": "Posta 7",
+          "description": "Desde la colina, sentí la dirección e intensidad del viento. Esto enseña a interpretar el entorno y planificar la ruta.<br><br><strong>Desafío:</strong> Determinar la dirección del viento y su efecto en la travesía.<br><strong>Mini-prueba:</strong> Estimar la fuerza aproximada del viento.<br><strong>Consigna educativa:</strong> Observar el entorno fortalece la previsión y la toma de decisiones.",
+          "lat": -31.1268,
+          "lon": -64.7369,
+          "radius": 5
+        },
+        {
+          "id": "4.8",
+          "name": "Posta 8",
+          "description": "Construir un refugio temporal enseña creatividad, ingenio y cooperación.<br><br><strong>Desafío:</strong> Montar un refugio que resista viento ligero y permita entrar a todos.<br><strong>Mini-prueba:</strong> Verificar estabilidad del refugio.<br><strong>Consigna educativa:</strong> La resolución de problemas y el trabajo en equipo son esenciales para la autosuficiencia.",
+          "lat": -31.1261,
+          "lon": -64.7372,
+          "radius": 5
+        },
+        {
+          "id": "4.9",
+          "name": "Posta 9",
+          "description": "Un claro para practicar rapidez y coordinación en la transmisión de mensajes.<br><br><strong>Desafío:</strong> Transmitir correctamente un mensaje usando señales scout.<br><strong>Mini-prueba:</strong> Confirmar que la patrulla recibió la información sin errores.<br><strong>Consigna educativa:</strong> La comunicación efectiva mejora la coordinación y el trabajo en equipo.",
+          "lat": -31.1255,
+          "lon": -64.7367,
+          "radius": 5
+        },
+        {
+          "id": "4.10",
+          "name": "Posta 10",
+          "description": "El último punto de la ruta reúne todo lo aprendido. Cada patrulla comparte logros y reflexiona sobre las habilidades adquiridas.<br><br><strong>Desafío:</strong> Contar un desafío superado y tres habilidades adquiridas.<br><strong>Mini-prueba:</strong> Analizar cómo aplicar estos aprendizajes en futuras expediciones.<br><strong>Consigna educativa:</strong> La reflexión sobre la experiencia fortalece liderazgo y autoconfianza.",
+          "lat": -31.1250,
+          "lon": -64.7360,
           "radius": 5
         }
       ]
