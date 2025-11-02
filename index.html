@@ -25,8 +25,9 @@
   <div class="card">
         <p>
       Bienvenido a <strong>GeoScout </strong>, un juego de exploración al aire libre basado en geolocalización.
-      Tu misión es desplazarte por diferentes postas marcadas en el terreno utilizando el GPS del telefono.
-      En cada punto encontrarás desafíos que pondrán a prueba tu observación, orientación y trabajo en equipo. ¡Buena suerte en el camino!
+      Tu misión es desplazarte por diferentes postas marcadas en el terreno utilizando el GPS de tu dispositivo.
+      En cada punto encontrarás desafíos que pondrán a prueba tu observación, orientación y trabajo en equipo.
+      Movete, descubrí el entorno y completá la ruta para superar la aventura scout. ¡Buena suerte en el camino!
     </p>
     </div>
        <div class="controls card">
@@ -36,7 +37,11 @@
         <button id="force">Actualizar distancia</button>
       </div>
     </div>
-  
+    <div class="card" id="orientation-card" style="display: none;">
+      <h3>Orientación</h3>
+      <p id="distance"></p>
+      <p id="direction"></p>
+    </div>
 <div class="card" id="info-card"></div>
     <div class="card">
       <h3>Recorrido</h3>

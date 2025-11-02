@@ -9,6 +9,28 @@ function distanceMeters(lat1, lon1, lat2, lon2) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 }
 
+// Helper functions for bearing calculation
+function toRad(deg) { return deg * Math.PI / 180; }
+function toDeg(rad) { return rad * 180 / Math.PI; }
+
+function getBearing(lat1, lon1, lat2, lon2) {
+  const φ1 = toRad(lat1);
+  const φ2 = toRad(lat2);
+  const Δλ = toRad(lon2 - lon1);
+
+  const y = Math.sin(Δλ) * Math.cos(φ2);
+  const x = Math.cos(φ1) * Math.sin(φ2) - Math.sin(φ1) * Math.cos(φ2) * Math.cos(Δλ);
+  const bearing = toDeg(Math.atan2(y, x));
+
+  return (bearing + 360) % 360; // Normalize to 0-360
+}
+
+function getCardinalDirection(bearing) {
+  const directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
+  const index = Math.round(bearing / 45) % 8;
+  return directions[index];
+}
+
 let postas=[];
 
 const statusEl = document.getElementById('status');
@@ -21,6 +43,7 @@ const recorridoNameEl = document.getElementById('recorrido-name');
 const infoCardEl = document.getElementById('info-card');
 const orientationCardEl = document.getElementById('orientation-card');
 const distanceEl = document.getElementById('distance');
+const directionEl = document.getElementById('direction');
 let startingPoint;
 let lastPosition;
 let closestPosta = null;
@@ -56,7 +79,7 @@ function renderList(){
     li.innerHTML = `<div><strong>${p.name}</strong></div><div class="status ${statusClass}"></div>`;
     li.onclick = () => {
       infoCardEl.innerHTML = `<h2>${p.name}</h2><p>${p.description}</p>`;
-      // infoCardEl.style.display = 'block'; // Bloqueado para evitar que se muestre al hacer click
+      infoCardEl.style.display = 'block';
     };
     listaEl.appendChild(li);
   });
@@ -118,6 +141,9 @@ function onPosition(pos){
     statusEl.textContent = `A ${Math.round(minDistance)} m de ${closestPosta.name}`;
     orientationCardEl.style.display = 'flex';
     distanceEl.textContent = `Distancia: ${Math.round(minDistance)} m`;
+    const bearing = getBearing(currentLat, currentLon, closestPosta.lat, closestPosta.lon);
+    const cardinalDirection = getCardinalDirection(bearing);
+    directionEl.textContent = `Rumbo: ${cardinalDirection}`;
   } else {
     statusEl.textContent = 'Esperando geolocalización...';
     orientationCardEl.style.display = 'none';
