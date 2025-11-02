@@ -144,7 +144,7 @@ function onPosition(pos){
     distanceEl.textContent = `Distancia: ${Math.round(minDistance)} m`;
     const bearing = getBearing(currentLat, currentLon, closestPosta.lat, closestPosta.lon);
     const cardinalDirection = getCardinalDirection(bearing);
-    directionEl.textContent = `Rumbo: ${cardinalDirection}`;
+    directionEl.textContent = `Rumbo: ${cardinalDirection} (${Math.round(bearing)}°)`;
     directionEl.style.display = 'block';
   } else {
     statusEl.textContent = 'Esperando geolocalización...';
