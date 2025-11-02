@@ -26,7 +26,7 @@ function getBearing(lat1, lon1, lat2, lon2) {
 }
 
 function getCardinalDirection(bearing) {
-  const directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
+  const directions = ['Norte', 'Noreste', 'Este', 'Sureste', 'Sur', 'Suroeste', 'Oeste', 'Noroeste'];
   const index = Math.round(bearing / 45) % 8;
   return directions[index];
 }
@@ -137,6 +137,7 @@ function onPosition(pos){
   if (allPostasCompleted) {
     statusEl.textContent = '¡Recorrido completado!';
     orientationCardEl.style.display = 'none';
+    directionEl.style.display = 'none';
   } else if (closestPosta) {
     statusEl.textContent = `A ${Math.round(minDistance)} m de ${closestPosta.name}`;
     orientationCardEl.style.display = 'flex';
@@ -144,9 +145,11 @@ function onPosition(pos){
     const bearing = getBearing(currentLat, currentLon, closestPosta.lat, closestPosta.lon);
     const cardinalDirection = getCardinalDirection(bearing);
     directionEl.textContent = `Rumbo: ${cardinalDirection}`;
+    directionEl.style.display = 'block';
   } else {
     statusEl.textContent = 'Esperando geolocalización...';
     orientationCardEl.style.display = 'none';
+    directionEl.style.display = 'none';
   }
 
   lastPosition = pos;
