@@ -16,7 +16,7 @@
           "description": "Comenzás la expedición ascendiendo a un alto desde donde el paisaje se despliega como un mapa. Como un águila, debés observar rutas posibles y peligros ocultos.<br><br><strong>Desafío:</strong> Señalá tres puntos de referencia naturales y explicá su utilidad.<br><strong>Mini-prueba:</strong> Identificá riesgos potenciales en el terreno.<br><strong>Consigna educativa:</strong> La observación y análisis de paisaje mejora la orientación y seguridad.",
           "lat": -38.710695,
           "lon": -62.272706,
-          "radius": 15
+          "radius": 1500000
         },
         {
           "id": "4.2",
